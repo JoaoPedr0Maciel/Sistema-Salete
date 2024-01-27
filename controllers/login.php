@@ -13,7 +13,7 @@ if ($result->num_rows > 0) {
     $senhaArmazenada = $row['Senha'];
 
     if (password_verify($senha, $senhaArmazenada)) {
-        header("Location: ../pages/painel.html");
+        header("Location: ../pages/painel.php");
         exit();
     }
 }

@@ -5,8 +5,8 @@ const btnCloseModal = document.querySelector("#closeModal")
 
 
 btnUsuario.addEventListener("click", () => {
-  modalBackground.style.display = "flex";
-  modalContainer.style.display = "flex";
+    modalBackground.style.display = "flex";
+    modalContainer.style.display = "flex";
 });
 
 modalBackground.addEventListener("click", () => {
@@ -28,7 +28,7 @@ modalContainer.addEventListener("click", e => {
 const btnFuncionario = document.querySelector("#btnFuncionario");
 const funcionarioModalBackground = document.querySelector("#modal-cadastrar-funcionario");
 const funcionarioModalContainer = document.querySelector("#modal-cadastrar-funcionario-container");
-const btnCloseModalFuncionario = document.querySelector("#closeModalFuncionario")
+const btnCloseModalFuncionario = document.querySelector("#closeModalFuncionario");
 
 btnFuncionario.addEventListener("click", () => {
     funcionarioModalBackground.style.display = "flex";

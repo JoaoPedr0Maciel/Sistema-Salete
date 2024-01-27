@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../assets/painel.css" />
   <title>Painel</title>
 </head>
+
 <body>
   <header>
     <h1 id="logo">Logo aqui</h1>
@@ -21,22 +23,41 @@
         <p>1234</p>
       </div>
     </aside>
-    
+
     <div id="lado-direito">
-      <h1>Olá João Pedro!</h1>
-      <p>Acesse alguma das configurações</p>
+      <div class="title">
+        <h1>Olá João Pedro!</h1>
+        <p>Acesse alguma das configurações</p>
+      </div>
+      
+    
       <section id="cadastro-section">
         <div id="cadastro-usuario">
           <img src="../assets/user.png" alt="">
           <button class="btnUsuario">Cadastrar usuário</button>
         </div>
+        
         <div id="cadastro-funcionario">
           <img src="../assets/user.png" alt="">
           <button id="btnFuncionario">Cadastrar funcionario</button>
         </div>
       </section>
+
       <section id="relatorios-section">
-        teste
+        <div id="cadastro-usuario">
+          <img src="../assets/user.png" alt="">
+          <button class="btnUsuario">Receita</button>
+        </div>
+        
+        <div id="cadastro-funcionario">
+          <img src="../assets/user.png" alt="">
+          <button id="btnFuncionario">Passageiros por operador</button>
+        </div>
+
+        <div id="cadastro-funcionario">
+          <img src="../assets/user.png" alt="">
+          <button id="btnFuncionario">Lista de funcionarios</button>
+        </div>
       </section>
 
       <section id="modal-cadastrar-usuario">
@@ -73,4 +94,5 @@
   </div>
   <script src="../assets/js/modal.js"></script>
 </body>
+
 </html>
