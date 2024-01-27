@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../assets/painel.css" />
+  <link rel="stylesheet" href="../assets/css/painel.css" />
+  <?php include "../assets/icoBarraNavegacao.php" ?>
   <title>Painel</title>
 </head>
 
@@ -33,29 +34,29 @@
     
       <section id="cadastro-section">
         <div id="cadastro-usuario">
-          <img src="../assets/user.png" alt="">
+          <img src="../assets/img/user.png" alt="">
           <button class="btnUsuario">Cadastrar usuário</button>
         </div>
         
         <div id="cadastro-funcionario">
-          <img src="../assets/user.png" alt="">
+          <img src="../assets/img/user.png" alt="">
           <button id="btnFuncionario">Cadastrar funcionario</button>
         </div>
       </section>
 
       <section id="relatorios-section">
         <div id="cadastro-usuario">
-          <img src="../assets/user.png" alt="">
+          <img src="../assets/img/user.png" alt="">
           <button class="btnUsuario">Receita</button>
         </div>
         
         <div id="cadastro-funcionario">
-          <img src="../assets/user.png" alt="">
+          <img src="../assets/img/user.png" alt="">
           <button id="btnFuncionario">Passageiros por operador</button>
         </div>
 
         <div id="cadastro-funcionario">
-          <img src="../assets/user.png" alt="">
+          <img src="../assets/img/user.png" alt="">
           <button id="btnFuncionario">Lista de funcionarios</button>
         </div>
       </section>
