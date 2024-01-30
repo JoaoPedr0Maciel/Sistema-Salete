@@ -5,7 +5,7 @@ include("conexao.php");
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
-$sql = "SELECT * FROM `user` WHERE `Email` = '$email'";
+$sql = "SELECT * FROM user WHERE `Email` = '$email'";
 $result = $conn->query($sql) or die("Não foi possível continuar");
 
 if ($result->num_rows > 0) {

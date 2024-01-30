@@ -11,7 +11,7 @@
 
 <body>
     <main>
-        <form action="/Salete/controllers/login.php" method="post" autocomplete="off">
+        <form action="../controllers/login.php" method="post" autocomplete="off">
             <h1>Login</h1>
             <label for="">Email</label>
             <input type="email" name="email" placeholder="Digite seu email" required />
